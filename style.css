@@ -1,0 +1,178 @@
+body{
+	font-family: 'Source Sans Pro', Helvetica, Verdana;
+	margin: 0;
+}
+
+header {
+	/*height: 150px;*/
+	background: #05117c;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+
+}
+
+header img {
+	padding: 0;
+	width: 25%;
+	height: 25%;
+}
+
+header h2 {
+	text-align: right;
+	margin-top: -50px;
+	font-size: 2em;
+	margin-right: 1%;
+}
+
+.main{
+	height: 380px;
+	background: #ccc;
+	background-image: url(images/main-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 0;
+}
+
+p{
+	margin: 0 25px 0 25px;
+}
+
+aside {
+	width: 25%;
+	max-width: 25%;
+	/*height: 330px;*/
+	background: #05117c;
+	box-shadow: 4px 4px 3px	 #000;
+	color: #fff;
+}
+
+aside h1 {
+	padding: 0;
+	text-align: center;
+	font-size: 3em;
+}
+
+aside ul {
+	padding-top: 0;
+}
+
+aside li {
+	list-style-type: none;
+}
+
+aside a {
+	color: #fff;
+}
+
+aside p {
+	text-align: justify;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
+
+.boxes aside {
+	flex: 1 0; 
+	margin-top: 15%;
+}
+
+.missionBody {
+	background: #ccc;
+	width: 100%;
+	position: absolute;
+	margin-top: 200px;
+	z-index: 300303030;
+}
+
+.statement {
+	display: inline-block;
+	width: 45%;
+	text-align: justify;
+	font-size: 2em;
+	color: #05117c;
+	margin-left: 2%;
+	clear: all;
+}
+
+.statementh1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+
+/*Animation Magic Happens Here*/
+.half {
+	margin-right: 2%;
+	display: block;
+	width: 45%;
+	overflow: hidden;
+	float: right;
+}
+
+.half h1 {
+	color: #05117c;
+	text-align: center;
+}
+
+footer {
+	margin-top: 5%;
+	height: 100px;
+	background: #05117c;
+	display: block;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    bottom:0;
+    width: 100%;
+    clear: both;
+}
+
+.jcarousel img {
+	display: block;
+	max-width: 100%;
+	height: auto !important;
+}
+
+/*jcarousel min requirements*/
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+}
+
+.jcarousel ul {
+	width: 4096px;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.jcarousel li {
+	float: left;
+}
+
+/*Video CSS*/
+.video {
+	width: 720px;
+	padding: 20px;
+	position: relative;
+	background: #05117c;
+	margin: auto;
+	margin-top: 30px;
+	clear: all;
+
+}
+
+.vid-bg {
+	width: 100%;
+	padding-top: 20px;
+	margin-top: 950px;
+	background: #05117c;
+	box-shadow: 4px 4px 4px #000;
+	clear: both;
+}
