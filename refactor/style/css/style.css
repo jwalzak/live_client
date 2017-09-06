@@ -1,0 +1,24 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  background: #fff; }
+  .header__img {
+    grid-column: 1;
+    width: 75%; }
+  .header__h2 {
+    grid-column: 2; }
+
+.display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background: #05117C; }
+  .display--contact {
+    grid-column: 1; }
+  .display--about {
+    grid-column: 2; }
+  .display--services {
+    grid-column: 3; }
+
+/*# sourceMappingURL=style.css.map */
