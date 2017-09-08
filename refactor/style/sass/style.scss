@@ -17,6 +17,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   background: #05117C;
+}
+
+.aside {
+  display: grid;
   &--contact {
     grid-column: 1;
   }
